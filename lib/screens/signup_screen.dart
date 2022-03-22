@@ -95,18 +95,18 @@ class _SignupScreenState extends State<SignupScreen> {
                 flex: 2,
               ),
               SvgPicture.asset(
-                'assets/ic_instagram.svg',
+                'assets/smiley.svg',
                 color: primaryColor,
-                height: 64,
+                height: 54,
               ),
               const SizedBox(
-                height: 64,
+                height: 54,
               ),
               Stack(
                 children: [
                   _image != null
                       ? CircleAvatar(
-                    radius: 64,
+                    radius: 54,
                     backgroundImage: MemoryImage(_image!),
                     backgroundColor: Colors.red,
                   )
@@ -155,7 +155,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 height: 24,
               ),
               TextFieldInput(
-                hintText: 'Enter your bio',
+                hintText: 'Enter your Address',
                 textInputType: TextInputType.text,
                 textEditingController: _bioController,
               ),

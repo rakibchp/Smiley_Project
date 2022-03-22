@@ -132,7 +132,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Container(
                     child: const Text(
-                      'Dont have an account?',
+                      "Don't have an account?",
                     ),
                     padding: const EdgeInsets.symmetric(vertical: 8),
                   ),
@@ -144,7 +144,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     child: Container(
                       child: const Text(
-                        ' Signup.',
+                        'Signup',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                         ),
